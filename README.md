@@ -1,5 +1,27 @@
 # Improve generalisation of a QML model by constraining the data scaling parameter
 
+##Objectives
+This project is an investigation into the effect of different methods of data scaling in quantum machine learning models. 
+The objectives are:
+- O1: Code a simple QML model with 1 dimensional data input and show that unconstrained optimisation of a data scaling 
+parameter leads to overfitting. 
+- O2: Develop a method to scale the data that does not lead to overfitting, and improves generalisation
+ error with respect to models with fixed scaling.
+- O3: Generalise the method in O2 to input data of arbitrary dimension and investigate performance on some data sets.
+- O4: (if time) Observe a [double descent curve](https://medium.com/mlearning-ai/double-descent-8f92dfdc442f) in a 
+simple QML model, and show that this phenomenon relies on a good choice of data scaling. 
+
+##Some intial ideas
+There are a number of studies in classical machine learning that investigate generalisation in 'fourier models', 
+which share the same basic mathematical structure as QML models. We might be able to get some ideas from these
+ papers, although I have not found anything that adresses the scaling of data explicity.
+- [Two models of double descent for weak features](https://arxiv.org/pdf/1903.07571.pdf) <br />
+Here they show a double descent model in a fourier model. 
+- [Occam's Razor](https://proceedings.neurips.cc/paper/2000/file/0950ca92a4dcf426067cfd2246bb5ff3-Paper.pdf) <br />
+Something about scaling in a fourier model in bayesian setting, not sure if that relevant. 
+
+
+
 ## Dataset
 Our dataset (`data/custom_dataset.txt`) consists of 1D noisy points sampled from the following function: 
 
