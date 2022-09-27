@@ -20,6 +20,15 @@ Here they show a double descent model in a fourier model.
 - [Occam's Razor](https://proceedings.neurips.cc/paper/2000/file/0950ca92a4dcf426067cfd2246bb5ff3-Paper.pdf) <br />
 Something about scaling in a fourier model in bayesian setting, not sure if that relevant. 
 
+Another thing we could look at is somehow using fourier analysis to judiciously chose the data scaling, so that there
+is a large overlap between the frequencies avaliable in the quantum
+model and the highly weighted frequencies in the data. This will probably involve
+estimating the discrete fourier transform of the data. The issue here is that the
+data is generally not evenly spaced and there will be missing data, so we need techniques to
+estimate the DFT in this setting. I imagine there is a lot of literature that
+could help us here, see e.g. [here](https://proceedings.neurips.cc/paper/2003/file/8c1b6fa97c4288a4514365198566c6fa-Paper.pdf). 
+
+
 
 
 ## Dataset
