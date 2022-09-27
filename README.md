@@ -1,6 +1,6 @@
 # Improve generalisation of a QML model by constraining the data scaling parameter
 
-##Objectives
+## Objectives
 This project is an investigation into the effect of different methods of data scaling in quantum machine learning models. 
 The objectives are:
 - O1: Code a simple QML model with 1 dimensional data input and show that unconstrained optimisation of a data scaling 
