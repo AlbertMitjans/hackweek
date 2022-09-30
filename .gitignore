@@ -1,2 +1,4 @@
 dummy/*
 src/.*
+src/images
+data/.*
